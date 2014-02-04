@@ -179,7 +179,7 @@
 	<group name="設施">
 		<item name="長椅" type="node">
 			<label text="新增長椅" />
-			<key key="amenity" text="" value="bench" />
+			<key key="amenity" value="bench" />
 			<check key="backrest" text="椅背" />
 			<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbench" />
 		</item>
@@ -360,81 +360,81 @@
 				<key key="surface" value="paved" />
 				<label text="有鋪面的路" />
 				<text key="name" text="Name" />
-				<combo key="sac_scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
-				<combo key="trail_visibility" value="excellent, good, intermediate, bad, horrible, no" />
-				<combo key="highway" value="track, road, footway, path" />
+				<combo key="sac_scale" text="Sac Scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
+				<combo key="trail_visibility" text="Trail Visibility" value="excellent, good, intermediate, bad, horrible, no" />
+				<combo key="highway" text="Highway" value="track, road, footway, path" />
 			</item>
 			<item name="水泥路" type="way">
 				<key key="surface" value="concrete" />
 				<label text="水泥路面" />
 				<text key="name" text="Name" />
-				<combo key="sac_scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
-				<combo key="trail_visibility" value="excellent, good, intermediate, bad, horrible, no" />
-				<combo key="highway" value="track, road, footway, path" />
+				<combo key="sac_scale" text="Sac Scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
+				<combo key="trail_visibility" text="Trail Visibility" value="excellent, good, intermediate, bad, horrible, no" />
+				<combo key="highway" text="Highway" value="track, road, footway, path" />
 			</item>
 			<item name="柏油路" type="way">
 				<key key="surface" value="asphalt" />
 				<label text="柏油路面" />
 				<text key="name" text="Name" />
-				<combo key="sac_scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
-				<combo key="trail_visibility" value="excellent, good, intermediate, bad, horrible, no" />
-				<combo key="highway" value="track, road, footway, path" />
+				<combo key="sac_scale" text="Sac Scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
+				<combo key="trail_visibility" text="Trail Visibility" value="excellent, good, intermediate, bad, horrible, no" />
+				<combo key="highway" text="Highway" value="track, road, footway, path" />
 			</item>
 			<item name="鵝卵石" type="way">
 				<key key="surface" value="cobblestone" />
 				<label text="鵝卵石" />
 				<text key="name" text="Name" />
-				<combo key="sac_scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
-				<combo key="trail_visibility" value="excellent, good, intermediate, bad, horrible, no" />
-				<combo key="highway" value="track, road, footway, path" />
+				<combo key="sac_scale" text="Sac Scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
+				<combo key="trail_visibility" text="Trail Visibility" value="excellent, good, intermediate, bad, horrible, no" />
+				<combo key="highway" text="Highway" value="track, road, footway, path" />
 			</item>
 			<separator />
 			<item name="未鋪面" type="way">
 				<key key="surface" value="unpaved" />
 				<label text="未鋪面" />
 				<text key="name" text="Name" />
-				<combo key="sac_scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
-				<combo key="trail_visibility" value="excellent, good, intermediate, bad, horrible, no" />
-				<combo key="highway" value="track, road, footway, path" />
+				<combo key="sac_scale" text="Sac Scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
+				<combo key="trail_visibility" text="Trail Visibility" value="excellent, good, intermediate, bad, horrible, no" />
+				<combo key="highway" text="Highway" value="track, road, footway, path" />
 			</item>
 			<item name="木頭" type="way">
 				<key key="surface" value="wood" />
 				<text key="name" text="Name" />
-				<combo key="sac_scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
+				<combo key="sac_scale" text="Sac Scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
 				<combo key="trail_visibility" value="excellent, good, intermediate, bad, horrible, no" />
-				<combo key="highway" value="track, road, footway, path" />
+				<combo key="highway" text="Highway" value="track, road, footway, path" />
 
 			</item>
 			<item name="細石" type="way">
 				<key key="surface" value="fine_gravel" />
 				<text key="name" text="Name" />
-				<combo key="sac_scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
-				<combo key="trail_visibility" value="excellent, good, intermediate, bad, horrible, no" />
-				<combo key="highway" value="track, road, footway, path" />
+				<combo key="sac_scale" text="Sac Scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
+				<combo key="trail_visibility" text="Trail Visibility" value="excellent, good, intermediate, bad, horrible, no" />
+				<combo key="highway" text="Highway" value="track, road, footway, path" />
 
 			</item>
 			<item name="有點小石" type="way">
 				<key key="surface" value="pebblestone" />
 				<label text="石頭大小約在2至8公分" />
 				<text key="name" text="Name" />
-				<combo key="sac_scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
-				<combo key="trail_visibility" value="excellent, good, intermediate, bad, horrible, no" />
-				<combo key="highway" value="track, road, footway, path" />
+				<combo key="sac_scale" text="Sac Scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
+				<combo key="trail_visibility" text="Trail Visibility" value="excellent, good, intermediate, bad, horrible, no" />
+				<combo key="highway" text="Highway" value="track, road, footway, path" />
 
 			</item>
 			<item name="泥" type="way">
 				<key key="surface" value="ground" />
 				<text key="name" text="Name" />
-				<combo key="sac_scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
-				<combo key="trail_visibility" value="excellent, good, intermediate, bad, horrible, no" />
-				<combo key="highway" value="track, road, footway, path" />
+				<combo key="sac_scale" text="Sac Scale" value="hiking, mountain_hiking, demanding_mountain_hiking, alpine_hiking, demanding_alpine_hiking, difficult_alpine_hiking" />
+				<combo key="trail_visibility" text="Trail Visibility" value="excellent, good, intermediate, bad, horrible, no" />
+				<combo key="highway" text="Highway" value="track, road, footway, path" />
 
 			</item>
 		</group>	
 		<item name="階梯" type="way">
 			<key key="highway" value="steps" />
 			<text key="name" text="Name" />
-			<combo key="incline" value="up, down" />
+			<combo key="incline" text="Incline" value="up, down" />
 			<text key="step_count" text="階數" />
 			<text key="width" text="寬度" />
 			<link href="http://wiki.openstreetmap.org/wiki/Tag:highway%3Dsteps" />
