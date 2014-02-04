@@ -432,7 +432,7 @@
 			</item>
 		</group>	
 		<item name="階梯" type="way">
-			<key key="highway" value="path" />
+			<key key="highway" value="steps" />
 			<text key="name" text="Name" />
 			<combo key="incline" value="up, down" />
 			<text key="step_count" text="階數" />
