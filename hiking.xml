@@ -44,7 +44,7 @@
 			<link href="http://wiki.openstreetmap.org/wiki/Tag:natural%3Dsaddle" />
 		</item>
 		<item name="巨石" type ="node">
-			<label ext="新增一顆石頭" />
+			<label text="新增一顆石頭" />
 			<key key="natural" value="stone" />
 			<text key="name" text="Name" />
 			<link href="http://wiki.openstreetmap.org/wiki/Tag:natural%3Dstone" />
