@@ -1,4 +1,4 @@
-<presets author="mcdlee" version="20130508" description="According to Kuang-che Wu">
+ <presets author="mcdlee" version="20130508" description="According to Kuang-che Wu">
 <group name="Hiking">
 	<group name="自然">
 		<item name="山頂" type="node">
@@ -44,7 +44,7 @@
 			<link href="http://wiki.openstreetmap.org/wiki/Tag:natural%3Dsaddle" />
 		</item>
 		<item name="巨石" type ="node">
-			<label ext="新增一顆石頭" />
+			<label text="新增一顆石頭" />
 			<key key="natural" value="stone" />
 			<text key="name" text="Name" />
 			<link href="http://wiki.openstreetmap.org/wiki/Tag:natural%3Dstone" />
